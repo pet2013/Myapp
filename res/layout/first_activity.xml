@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="firstActivityClose"
+            android:id="@+id/firstBackButton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+    <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" android:orientation="horizontal" android:id="@+id/A1_radioGroup">
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visible"
+                android:id="@+id/radioButtonVisible" android:checked="true"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Invisible"
+                android:id="@+id/radioButtonInvisible" android:checked="false"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gone"
+                android:id="@+id/radioButtonGone"/>
+    </RadioGroup>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HELLO WORLD"
+            android:id="@+id/A1_toChange" android:layout_alignLeft="@+id/A1_radioGroup"
+            android:layout_below="@+id/A1_radioGroup" android:textIsSelectable="false" android:textSize="30sp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:id="@+id/textView1" android:layout_alignLeft="@+id/A1_radioGroup"
+            android:layout_below="@+id/A1_toChange"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VISIBLE"
+            android:id="@+id/A1_textViewStatus"
+            android:layout_toRightOf="@+id/textView1" android:layout_below="@+id/A1_toChange"/>
+
+
+</RelativeLayout>

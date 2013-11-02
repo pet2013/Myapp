@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/A2_imageView"
+           android:src="@drawable/test"
+           android:background="@android:color/white"
+           android:scaleType="centerCrop"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="secondActivityClose"
+            android:id="@+id/secondBackButton"
+            android:background="@android:drawable/btn_default"
+            android:layout_alignRight="@+id/A2_imageView" android:layout_alignTop="@+id/A2_imageView"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/A2_spinner" android:layout_alignLeft="@+id/A2_imageView"
+            android:layout_alignBottom="@+id/A2_imageView" android:focusableInTouchMode="false"/>
+</RelativeLayout>
