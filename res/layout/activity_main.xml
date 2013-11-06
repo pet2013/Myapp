@@ -20,19 +20,19 @@
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="fonts" />
+            android:text="fonts+colors" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="spinner" />
+            android:text="spinnerScaleType" />
 
         <Button
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="radioGroup"/>
+            android:text="radioVisibility"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -43,6 +43,11 @@
                 android:layout_height="wrap_content"
                 android:text="WebView"
                 android:id="@+id/webViewButton"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="radioScaleType"
+                android:id="@+id/radioImageButton"/>
     </LinearLayout>
 
 </RelativeLayout>

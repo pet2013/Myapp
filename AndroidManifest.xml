@@ -24,11 +24,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.myapp.firstActivity" android:label="first_activity"/>
-        <activity android:name="com.example.myapp.secondActivity" android:label="second_activity"/>
-        <activity android:name="com.example.myapp.thirdActivity" android:label="third_activity"/>
+        <activity android:name=".visibilityActivity" android:label="first_activity"/>
+        <activity android:name=".spinnerScaleTypeActivity" android:label="second_activity"/>
+        <activity android:name=".fontsActivity" android:label="third_activity"/>
         <activity android:name=".editTextActivity" android:label="editTextActivity"/>
         <activity android:name=".webViewActivity" android:label="webViewActivity"/>
+        <activity android:name=".radioScaleTypeActivity" android:label="radioImageActivity"/>
     </application>
 
 </manifest>

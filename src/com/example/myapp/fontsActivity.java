@@ -7,10 +7,10 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.TextView;
 
-public class thirdActivity extends Activity implements View.OnClickListener{
+public class fontsActivity extends Activity implements View.OnClickListener{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.third_activity);
+        setContentView(R.layout.fonts_activity);
 
         View backButton3 = findViewById(R.id.thirdBackButton);
 

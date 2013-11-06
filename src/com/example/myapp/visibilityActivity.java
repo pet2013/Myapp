@@ -6,10 +6,10 @@ import android.view.View;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-public class firstActivity extends Activity {
+public class visibilityActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.first_activity);
+        setContentView(R.layout.visibility_activity);
         View backButton1 = findViewById(R.id.firstBackButton);
         RadioGroup rg = (RadioGroup) findViewById(R.id.A1_radioGroup);
 

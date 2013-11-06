@@ -7,10 +7,10 @@ import android.widget.*;
 
 import java.util.ArrayList;
 
-public class secondActivity extends Activity implements AdapterView.OnItemSelectedListener{
+public class spinnerScaleTypeActivity extends Activity implements AdapterView.OnItemSelectedListener{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.second_activity);
+        setContentView(R.layout.spinner_st_activity);
         View backButton2 = findViewById(R.id.secondBackButton);
         Spinner spinner = (Spinner) findViewById(R.id.A2_spinner);
 

@@ -17,12 +17,14 @@ public class MainActivity extends Activity implements View.OnClickListener{
         View button3 = findViewById(R.id.button3);
         View button4 = findViewById(R.id.button4);
         View webViewButton = findViewById(R.id.webViewButton);
+        View radioImageButton = findViewById(R.id.radioImageButton);
 
         button1.setOnClickListener(this);
         button2.setOnClickListener(this);
         button3.setOnClickListener(this);
         button4.setOnClickListener(this);
         webViewButton.setOnClickListener(this);
+        radioImageButton.setOnClickListener(this);
 	}
 
 	@Override
@@ -38,19 +40,22 @@ public class MainActivity extends Activity implements View.OnClickListener{
         switch (view.getId())
         {
             case R.id.button1 :
-                startActivity(new Intent(MainActivity.this, firstActivity.class));
+                startActivity(new Intent(MainActivity.this, visibilityActivity.class));
                 break;
             case R.id.button2 :
-                startActivity(new Intent(MainActivity.this, secondActivity.class));
+                startActivity(new Intent(MainActivity.this, spinnerScaleTypeActivity.class));
                 break;
             case R.id.button3 :
-                startActivity(new Intent(MainActivity.this, thirdActivity.class));
+                startActivity(new Intent(MainActivity.this, fontsActivity.class));
                 break;
             case R.id.button4 :
                 startActivity(new Intent(MainActivity.this, editTextActivity.class));
                 break;
             case R.id.webViewButton :
                 startActivity(new Intent(MainActivity.this, webViewActivity.class));
+                break;
+            case R.id.radioImageButton :
+                startActivity(new Intent(MainActivity.this, radioScaleTypeActivity.class));
                 break;
         }
     }
