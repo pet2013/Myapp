@@ -27,25 +27,14 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a486c593-a7e6-439e-8936-566c2c8813e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/myapp/radioScaleTypeActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/radio_st_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/myapp/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/myapp/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
+    <list default="true" id="a486c593-a7e6-439e-8936-566c2c8813e0" name="Default" comment="megaApp">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\dev\workspace\Myapp\res\layout\first_activity.xml" afterPath="$PROJECT_DIR$/res/layout/visibility_activity.xml" />
-      <change type="MOVED" beforePath="E:\dev\workspace\Myapp\res\layout\second_activity.xml" afterPath="$PROJECT_DIR$/res/layout/spinner_st_activity.xml" />
-      <change type="MOVED" beforePath="E:\dev\workspace\Myapp\res\layout\third_activity.xml" afterPath="$PROJECT_DIR$/res/layout/fonts_activity.xml" />
-      <change type="MOVED" beforePath="E:\dev\workspace\Myapp\src\com\example\myapp\firstActivity.java" afterPath="$PROJECT_DIR$/src/com/example/myapp/visibilityActivity.java" />
-      <change type="MOVED" beforePath="E:\dev\workspace\Myapp\src\com\example\myapp\secondActivity.java" afterPath="$PROJECT_DIR$/src/com/example/myapp/spinnerScaleTypeActivity.java" />
-      <change type="MOVED" beforePath="E:\dev\workspace\Myapp\src\com\example\myapp\thirdActivity.java" afterPath="$PROJECT_DIR$/src/com/example/myapp/fontsActivity.java" />
     </list>
     <ignored path="Myapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383712164184" ignored="false" />
     <file path="/secondActivity.java" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383375295620" ignored="false" />
-    <file path="/Dummy.txt" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383716626011" ignored="false" />
+    <file path="/Dummy.txt" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383716852312" ignored="false" />
     <file path="/MainActivity.java" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383709491539" ignored="false" />
     <file path="/editTextActivity.java" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383375370779" ignored="false" />
     <file path="/first_activity.xml" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383364769486" ignored="false" />
@@ -165,10 +154,8 @@
       <file leaf-file-name="radioScaleTypeActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/myapp/radioScaleTypeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.20767888">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="4" column="31" selection-start="108" selection-end="108" vertical-scroll-proportion="0.118673645">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -334,7 +321,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/test" />
@@ -529,7 +516,11 @@
       <created>1383375558372</created>
       <updated>1383375558372</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="megaApp">
+      <created>1383716681759</created>
+      <updated>1383716681760</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -554,7 +545,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1692" height="1036" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2386503" sideWeight="0.67235494" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1791411" sideWeight="0.67235494" order="2" side_tool="false" content_ui="tabs" />
@@ -784,10 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/myapp/radioScaleTypeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.20767888">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="4" column="31" selection-start="108" selection-end="108" vertical-scroll-proportion="0.118673645">
+          <folding />
         </state>
       </provider>
     </entry>
