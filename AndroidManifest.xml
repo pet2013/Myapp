@@ -30,6 +30,7 @@
         <activity android:name=".editTextActivity" android:label="editTextActivity"/>
         <activity android:name=".webViewActivity" android:label="webViewActivity"/>
         <activity android:name=".radioScaleTypeActivity" android:label="radioImageActivity"/>
+        <activity android:name=".listViewActivity" android:label="listViewActivity"/>
     </application>
 
 </manifest>
