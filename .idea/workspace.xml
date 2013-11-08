@@ -27,20 +27,14 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a486c593-a7e6-439e-8936-566c2c8813e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/success_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/myapp/listViewActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/listview_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/myapp/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/myapp/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
+    <list default="true" id="a486c593-a7e6-439e-8936-566c2c8813e0" name="Default" comment="megaApp">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Myapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383712164184" ignored="false" />
     <file path="/secondActivity.java" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383375295620" ignored="false" />
-    <file path="/Dummy.txt" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383934513378" ignored="false" />
+    <file path="/Dummy.txt" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383934571441" ignored="false" />
     <file path="/MainActivity.java" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383927863258" ignored="false" />
     <file path="/editTextActivity.java" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383375370779" ignored="false" />
     <file path="/first_activity.xml" changelist="a486c593-a7e6-439e-8936-566c2c8813e0" time="1383364769486" ignored="false" />
@@ -568,7 +562,11 @@
       <created>1383716877700</created>
       <updated>1383716877700</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="megaApp">
+      <created>1383934543490</created>
+      <updated>1383934543490</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
