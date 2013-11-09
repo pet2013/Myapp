@@ -8,6 +8,7 @@ import android.widget.*;
 import java.util.ArrayList;
 
 public class listViewActivity extends Activity implements View.OnClickListener, AdapterView.OnItemClickListener{
+    final int LIST_VIEW_MODE = 2;
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.listview_activity);
@@ -17,16 +18,41 @@ public class listViewActivity extends Activity implements View.OnClickListener, 
         backButton.setOnClickListener(this);
         listView.setOnItemClickListener(this);
 
-        ArrayList<String> list = new ArrayList<String>();
+        // mode:
+        // 0: string list
+        // default: custom object list
 
-        for(Object s : ImageView.ScaleType.values()){
-            list.add(s.toString());
+        switch (LIST_VIEW_MODE){
+            case 0:
+                ArrayList<String> stringList = new ArrayList<String>();
+
+                for(Object s : ImageView.ScaleType.values()){
+                    stringList.add(s.toString());
+                }
+                for(Object s : ImageView.ScaleType.values()){
+                    stringList.add(s.toString());
+                }
+                //ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list);
+                //listView.setAdapter(adapter);
+                myListAdapter myStringAdapter = new myListAdapter(this, stringList);
+                listView.setAdapter(myStringAdapter);
+                break;
+            default:
+                ArrayList<DataObject> objectList = new ArrayList<DataObject>();
+                int imageSrc;
+                for(int i=0; i<20;i++){
+                    if (i%2 == 1) {
+                        imageSrc = R.drawable.test;
+                    } else {
+                        imageSrc = R.drawable.ic_launcher;
+                    }
+                    objectList.add(new DataObject("Item #"+(i+1),imageSrc));
+                }
+
+                NewListAdapter myObjectAdapter = new NewListAdapter(this, objectList);
+                listView.setAdapter(myObjectAdapter);
+                break;
         }
-        for(Object s : ImageView.ScaleType.values()){
-            list.add(s.toString());
-        }
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list);
-        listView.setAdapter(adapter);
     }
 
     @Override
@@ -40,7 +66,15 @@ public class listViewActivity extends Activity implements View.OnClickListener, 
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        String st = (String) parent.getItemAtPosition(position);
-        Toast.makeText(getApplicationContext(), "Item string = " + st + ".", Toast.LENGTH_LONG).show();
+        switch (LIST_VIEW_MODE){
+            case 0:
+                String listString = (String) parent.getItemAtPosition(position);
+                Toast.makeText(getApplicationContext(), "Mode = "+LIST_VIEW_MODE+" | Item string = " + listString + ".", Toast.LENGTH_LONG).show();
+                break;
+            default:
+                DataObject listObject = (DataObject) parent.getItemAtPosition(position);
+                Toast.makeText(getApplicationContext(), "Mode = "+LIST_VIEW_MODE+" | Item string = " + listObject.getCaption() + ".", Toast.LENGTH_LONG).show();
+                break;
+        }
     }
 }
