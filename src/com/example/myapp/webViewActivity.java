@@ -1,6 +1,7 @@
 package com.example.myapp;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -16,6 +17,7 @@ public class webViewActivity extends Activity implements View.OnClickListener{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.webview_activity);
+
         View backButton = findViewById(R.id.backButton);
         View goButton = findViewById(R.id.WebView_goButton);
         View putUrlButton = findViewById(R.id.WebView_putUrl);
@@ -23,6 +25,15 @@ public class webViewActivity extends Activity implements View.OnClickListener{
         backButton.setOnClickListener(this);
         goButton.setOnClickListener(this);
         putUrlButton.setOnClickListener(this);
+
+        String extraURL;
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            EditText textInput = (EditText) findViewById(R.id.WebView_UrlInput);
+            extraURL = extras.getString("URL");
+            textInput.setText(extraURL);
+            goButton.performClick();
+        }
     }
 
     @Override
